@@ -46,11 +46,11 @@ type SettingsPage =
   | "Members"
   | "Groups"
   | "Shares"
-  | "Import"
-  | "Export"
+  //| "Import"
+  //| "Export"
   | "Webhooks"
   | "Slack"
-  | "Zapier";
+  //| "Zapier";
 
 export type ConfigItem = {
   name: string;
