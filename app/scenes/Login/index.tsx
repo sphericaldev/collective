@@ -42,11 +42,6 @@ function Header({ config }: { config?: Config | undefined }) {
     );
   }
 
-  return (
-    <Back href="https://www.getoutline.com">
-      <BackIcon color="currentColor" /> {t("Back to website")}
-    </Back>
-  );
 }
 
 function Login() {
@@ -176,7 +171,7 @@ function Login() {
         ) : (
           <StyledHeading centered>
             {t("Login to {{ authProviderName }}", {
-              authProviderName: config.name || "Outline",
+              authProviderName: config.name || "Collective",
             })}
           </StyledHeading>
         )}

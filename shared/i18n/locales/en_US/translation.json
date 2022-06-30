@@ -517,7 +517,7 @@
   "Sign In": "Sign In",
   "Continue with Email": "Continue with Email",
   "Continue with {{ authProviderName }}": "Continue with {{ authProviderName }}",
-  "Back to home": "Back to home",
+  "Back to home": "Not your company?",
   "Back to website": "Back to website",
   "Login": "Login",
   "Failed to load configuration.": "Failed to load configuration.",
